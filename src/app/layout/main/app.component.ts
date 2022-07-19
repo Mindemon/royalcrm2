@@ -6,5 +6,8 @@ import { ContactsComponent } from '../../pages/contacts/contacts.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'royalcrm2';
+  title: string = 'FEATURE UNDER CONSTRUCTION';
+  icon: string = ' fa-2xl fa-solid fa-wrench';
+  subtitle: string = 'COMING SOON';
+
 }

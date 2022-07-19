@@ -8,9 +8,10 @@
         
         <div class="collapse navbar-collapse" id="navbarsExample05">
           <div class="justify-content-between d-flex col-12">
-            <app-left-nav></app-left-nav>
+            <app-nav-link-top [className]="'navbar-nav me-auto mb-2 mb-lg-0'" [to]="'about'" [text]="'about'"></app-nav-link-top>
             <div class="text-light">
-            <app-right-nav></app-right-nav>
+            <app-nav-link-top  [className]="'navbar-nav me-auto mb-2 mb-lg-0'" [to]="'logout'" [text]="'Logout'"></app-nav-link-top>
+            
             </div>
           </div>
         </div>

@@ -13,6 +13,8 @@ import { RightNavComponent } from './layout/header/right-nav/right-nav.component
 import { LoggedComponent } from './layout/header/right-nav/logged/logged.component';
 import { NotLoggedComponent } from './layout/header/right-nav/not-logged/not-logged.component';
 import { NavLinkTopComponent } from './layout/header/nav-link-top/nav-link-top.component';
+import { PageHeaderComponent } from './components/page-header/page-header.component';
+
 
 
 
@@ -29,7 +31,9 @@ import { NavLinkTopComponent } from './layout/header/nav-link-top/nav-link-top.c
     RightNavComponent,
     LoggedComponent,
     NotLoggedComponent,
-    NavLinkTopComponent
+    NavLinkTopComponent,
+    PageHeaderComponent,
+    
     
     
     
